@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <script src="https://cdn.tailwindcss.com"></script>
+
   <title>Frontend Mentor | QR code component</title>
+  </head>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<body class="flex h-fit items-center justify-center bg-blue-100">
+  <div class="flex flex-col">
+    <div
+      class="flex items-center justify-center bg-white w-auto max-w-xs mx-4 my-24 rounded-2xl p-4 shadow-2xl shadow-neutral-900/10">
+      <div class="flex flex-col">
+        <img class="rounded-lg mb-6" src="./images/image-qr-code.png" alt="QR code">
+        <h1 class="text-center text-xl font-bold px-4">Improve your front-end skills by building projects</h1>
+        <p class="text-center text-xs py-4 px-8 text-neutral-400">Scan the QR code to visit Frontend Mentor and take
+          your coding skills to the next level</p>
+      </div>
+    </div>
+    <div class="attribution py-4 opacity-50 text-xs text-center max-w-xs px-16">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://goodreds.net">A Goodreds</a>.
+      </div>
   </div>
 </body>
+
 </html>
